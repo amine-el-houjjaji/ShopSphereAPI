@@ -1,18 +1,24 @@
 {
   "name": "shopsphereapi",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amine-el-houjjaji/ShopSphereAPI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amine-el-houjjaji/ShopSphereAPI/issues"
+  },
+  "homepage": "https://github.com/amine-el-houjjaji/ShopSphereAPI#readme",
   "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-beta.3"
+  "devDependencies": {
+    "json-server": "^0.17.4"
   }
 }
